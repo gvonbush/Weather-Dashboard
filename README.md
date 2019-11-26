@@ -26,7 +26,7 @@ Open the [Weather Dashboard](https://gvonbush.github.io/Weather-Dashboard/) and 
 ## License
 MIT License
 
-Copyright (c) 2019 kshep425
+Copyright (c) 2019 gvonbush
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

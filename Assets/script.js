@@ -44,11 +44,11 @@ $.ajax ({
             var temperature = $("<h3>").text("Temperature: " + Math.floor(results.main.temp) + " °F")
             var humidity = $("<h3>").text("Humidity: " + results.main.humidity + "%")
             console.log(date)
-            var col = $("<div>").addClass("col-md-2");
-            var card = $("<div>").addClass("card");
-            var cardBody = $("<div>").addClass("card-body");
-            var cardTitle = $("<div>").addClass("card-title");
-            var cardText = $("<div>").addClass("card-text");
+            var col = $("<div>").addClass(".col-md-2");
+            var card = $("<div>").addClass(".card");
+            var cardBody = $("<div>").addClass(".card-body");
+            var cardTitle = $("<div>").addClass(".card-title");
+            var cardText = $("<div>").addClass(".card-text");
             col.append(card.append(cardBody.append(cardTitle)))
             
         }
@@ -62,3 +62,4 @@ $("#button-addon2").click(function(event){
 })
 citySearch("Baltimore&units=imperial")
 fiveDay("Baltimore")
+
